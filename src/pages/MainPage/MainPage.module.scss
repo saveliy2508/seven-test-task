@@ -1,0 +1,35 @@
+.MainPage {
+}
+
+.top {
+  font-size: 18px;
+  color: var(--primary-color);
+  background: var(--inverted-bg-color);
+  border-bottom: 1px solid #414144;
+
+  span {
+    padding: 12px 15px;
+    line-height: 44px;
+    border-right: 1px solid #414144;
+  }
+}
+
+.header {
+  height: 44px;
+  color: var(--secondary-color);
+  letter-spacing: 0.1px;
+  display: grid;
+  grid-template-columns: 0.8fr 3.2fr 1fr 1fr 1fr 1fr;
+}
+
+.title {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.listWrapper {
+  margin: 0 10px;
+}

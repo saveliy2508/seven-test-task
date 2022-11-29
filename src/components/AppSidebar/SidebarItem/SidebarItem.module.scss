@@ -1,0 +1,17 @@
+.SidebarItem {
+  padding: 7.5px 22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16.75px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.img {
+  height: 100%;
+}
+
+.active {
+  background: #A1A1AA;
+}

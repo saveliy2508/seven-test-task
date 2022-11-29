@@ -1,0 +1,41 @@
+.AppHeader {
+  height: var(--header-height);
+  padding: 14px 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--inverted-bg-color);
+  border-bottom: 1px solid #414144;
+}
+
+.iconContainer {
+  cursor: pointer;
+  margin-right: 27px;
+}
+
+.burgerIcon {
+  padding: 3px;
+}
+
+.backArrowIcon {
+  padding: 3px;
+}
+
+.links {
+  display: flex;
+  padding-left: 8px;
+}
+
+.link {
+  color: var(--primary-color);
+  padding: 0 4px;
+  margin-right: 24px;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
+}
