@@ -1,8 +1,9 @@
 import React from 'react';
 import s from './MainPage.module.scss'
 import {MainPageLayout} from "./components/MainPageLayout/MainPageLayout";
+import {ListItem} from "./components/ListItem/ListItem";
 
-export const MainPage = () => {
+export const MainPage = ({items}: {items: any}) => {
     return (
         <MainPageLayout>
             <div className={s.top}>
@@ -20,7 +21,10 @@ export const MainPage = () => {
                     <p className={s.title}>Сметная прибыль</p>
                 </div>
                 <div className={s.stringList}>
-                    1
+                    {items.map((item: any) => (
+                        <ListItem item={item} />
+                        )
+                    )}
                 </div>
             </div>
         </MainPageLayout>

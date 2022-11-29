@@ -1,5 +1,5 @@
 import {ReactNode} from 'react';
-import s from './MainPageLayout.module.scss';
+import s from './MainPageLayout.module.sass';
 import {AppHeader} from "../../../../components/AppHeader/AppHeader";
 import {AppSidebar} from "../../../../components/AppSidebar/AppSidebar";
 

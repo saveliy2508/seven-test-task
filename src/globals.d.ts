@@ -1,4 +1,5 @@
 declare module '*.scss';
+declare module '*.sass';
 
 declare module '*.svg' {
     import * as React from 'react';
